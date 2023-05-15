@@ -1,4 +1,20 @@
 # MRU-Net
 MRU-Net：Multi-branch expanded residual U-Net framework for thyroid ultrasound nodule image segmentation.
 
-The proposed network framework is built on Pytorch 1.10.0 and CUDA 11.3 for Windows, and the model is trained on an NVIDIA TITAN X GPU with 12 GB of memory. The model optimizer is chosen from Stochastic Gradient Descent (SGD), the initial learning rate is set to 0.001, the number of iterations is 200, the input image size is 512×512, and the Batch size is set to 4.
+## 环境配置：
+* Python3.6/3.7/3.8
+* Pytorch1.10
+* Windows
+* 最好使用GPU训练
+* 详细环境配置见`requirements.txt`
+
+## 文件结构：
+```
+  ├── src: 搭建MRU-Net模型代码
+  ├── train_utils: 训练、验证相关模块
+  ├── augmentation.py: 数据增强相关模块
+  └── train.py: 以单GPU为例进行训练
+```
+
+## DRIVE数据集下载地址：
+* 官方地址： [https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation/tree/main/picture] (https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation/tree/main/picture)
