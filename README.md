@@ -16,7 +16,7 @@ MRU-Net：Multi-branch expanded residual U-Net framework for thyroid ultrasound 
   └── train.py: 以单GPU为例进行训练
 ```
 
-## DRIVE数据集下载地址：
+## TN3K数据集下载地址：
 * 官方地址： [https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation/tree/main/picture] 
 
 ## 本项目MRU-Net结构图如下
