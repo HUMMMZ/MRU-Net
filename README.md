@@ -18,3 +18,6 @@ MRU-Net：Multi-branch expanded residual U-Net framework for thyroid ultrasound 
 
 ## DRIVE数据集下载地址：
 * 官方地址： [https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation/tree/main/picture] 
+
+## 本项目MRU-Net结构图如下
+![MRU-Net](MRU-Net.png)
